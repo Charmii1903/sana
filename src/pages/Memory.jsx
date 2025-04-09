@@ -10,6 +10,17 @@ const images = [
   "/pic5.jpg",
   "/pic6.jpg",
   "/pic7.jpg",
+  "/pic8.jpg",
+  "/pic9.jpg",
+  "/pic10.jpg",
+  "/pic11.jpg",
+  "/pic12.jpg",
+  "/pic13.jpg",
+  "/pic14.jpg",
+  "/pic15.jpg",
+  "/pic16.jpg",
+  "/pic17.jpg",
+  "/pic18.jpg",
 ];
 
 export default function MemorySlider() {
@@ -123,7 +134,7 @@ export default function MemorySlider() {
 
       {/* Home Button */}
       <button
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/birthday")}
         className="bg-[#fef6d2] px-6 py-2 font-[prata] text-[rgb(83,46,63)] rounded-lg hover:scale-105 transition"
       >
         Back to Home
